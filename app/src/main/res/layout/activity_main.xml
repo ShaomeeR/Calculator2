@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reminder" />
+
+    <Spinner
+        android:id="@+id/dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="-12dp"
+        android:layout_marginRight="-212dp"
+        android:layout_toLeftOf="@+id/times" />
+
+    <Spinner
+        android:id="@id/times"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@+id/null"
+        android:layout_toLeftOf="@+id/null"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="331dp"
+        android:layout_marginRight="194dp"
+        android:text="8" />
+
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="396dp"
+        android:layout_marginRight="294dp"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="397dp"
+        android:layout_marginRight="196dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="296dp"
+        android:text="3">
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="397dp"
+        android:layout_marginRight="99dp"
+        android:text="4">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="101dp"
+        android:text="1" />
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="331dp"
+        android:layout_marginRight="99dp"
+        android:text="7">
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="199dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="537dp"
+        android:layout_marginRight="296dp"
+        android:text="CLEAR" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="537dp"
+        android:layout_marginRight="198dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btnequal"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="537dp"
+        android:layout_marginRight="100dp"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/btndivide"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="333dp"
+        android:layout_marginRight="-1dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btnmultiplication"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="396dp"
+        android:layout_marginRight="0dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btnsum"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="6dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnsubstract"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="537dp"
+        android:layout_marginRight="7dp"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textviewresult"
+        android:layout_width="91dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="281dp"
+        android:layout_marginRight="0dp"
+        android:text="Result" />
+
+    <TextView
+        android:id="@+id/textViewcontrol"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="187dp"
+        android:layout_marginRight="0dp"
+        android:text="Control" />
+
+
+</RelativeLayout>
